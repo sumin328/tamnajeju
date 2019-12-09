@@ -198,6 +198,7 @@ header {
     float: left; }
     header .colorlib-navbar-brand .colorlib-logo {
       font-family: 'Futura';
+      font-weight: bold;
       font-size: 35px;
       text-transform: uppercase;
       color: #fff;
@@ -807,18 +808,18 @@ header {
       -ms-border-radius: 2px;
       border-radius: 2px; }
     .pagination li a:hover, .pagination li a:focus {
-      background: #0e27fb;
+      background: #d0e000;
       color: #fff;
-      border: 1px solid #0e27fb; }
+      border: 1px solid #d0e000; }
     @media screen and (max-width: 768px) {
       .pagination li a {
         padding: 7px 15px; } }
   .pagination li.active a {
-    background: #0e27fb; }
+    background: #d0e000; }
     .pagination li.active a:hover, .pagination li.active a:focus {
-      background: #0e27fb;
+      background: #d0e000;
       color: #fff;
-      border: 1px solid #0e27fb; }
+      border: 1px solid #d0e000; }
 
 .btn {
   margin-right: 4px;
