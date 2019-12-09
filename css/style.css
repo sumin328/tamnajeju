@@ -843,18 +843,18 @@ header {
     outline: none !important; }
 
 .btn-primary {
-  background: #0e27fb;
+  background: #ff662a;
   color: #fff;
-  border: 2px solid #0e27fb; }
+  border: 2px solid #ff662a; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #273dfb !important;
-    border-color: #273dfb !important; }
+    background: #ff662a !important;
+    border-color: #ff662a !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #0e27fb;
-    border: 2px solid #0e27fb; }
+    color: #ff662a;
+    border: 2px solid #ff662a; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #0e27fb;
+      background: #ff662a;
       color: #fff; }
 
 .btn-success {
