@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 50px 0 0 0;
     margin: 0; }
-    @media screen and (max-width: 768px) {
+    @media screen and (min-width: 768px) {
       #colorlib-main-nav ul {
         padding: 20px 0 0 0; } }
     #colorlib-main-nav ul li {
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
         font-size: 48px;
         padding: 10px 0;
         text-transform: uppercase; }
-        @media screen and (max-width: 768px) {
+        @media screen and (min-width: 768px) {
           #colorlib-main-nav ul li a {
             font-size: 30px;
             padding: 10px 0; } }
@@ -192,7 +192,7 @@ header {
   right: 0;
   z-index: 9;
   margin: 0 auto; }
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) {
     header {
       padding: 2em 0; } }
   header .colorlib-navbar-brand {
@@ -270,7 +270,7 @@ header {
         display: table-cell;
         vertical-align: middle;
         height: 700px; }
-        @media screen and (max-width: 768px) {
+        @media screen and (min-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner span i {
@@ -287,7 +287,7 @@ header {
           line-height: 1.5;
           font-weight: 650;
           color: rgba(255, 255, 255, 0.9); }
-          @media screen and (max-width: 768px) {
+          @media screen and (min-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 20px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -298,7 +298,7 @@ header {
           text-transform: uppercase;
           letter-spacing: 0.5em;
           color: rgba(208, 224, 0); }
-          @media screen and (max-width: 768px) {
+          @media screen and (min-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
               letter-spacing: 0;
               text-transform: none; } }
@@ -332,7 +332,7 @@ header {
   padding: 7em 0;
   clear: both; }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #colorlib-hire {
     text-align: center; } }
 
