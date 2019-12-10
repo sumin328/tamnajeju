@@ -31,7 +31,7 @@
                     <div class="col-sm-6">
                         <div class="cafe-item">
                             ${cafe['cafe']}
-                            <img src="${cafe['image_url'] || './images/View-04.png'}" alt="사진">
+                            <img src="${cafe['image_url'] || './images/view-04.png'}" alt="사진">
                         </div>
                     </div>
                 `).join('')}
