@@ -359,7 +359,7 @@ header {
       content: '';
       background: #d0e000;
       margin: 0 auto; }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 3000px) {
       .intro-heading h2 {
         font-size: 30px; } }
 
@@ -367,7 +367,7 @@ header {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.5; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 3000px) {
     .heading {
       font-size: 40px; } }
 
