@@ -1199,3 +1199,103 @@ input[type="text"] {
 
 .js .animate-box {
   opacity: 0; }
+
+/* My work */
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+}
+
+aside .container {
+  padding-top: 143px;
+}
+
+aside h1,
+aside h2,
+aside p {
+  text-align: left;
+}
+
+#jeju-map {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+#jeju-map a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0;
+  padding-bottom: calc(100% * 350 / 620);
+}
+
+#jeju-map span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/jeju_mappng-03.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+#eup-menu {
+  margin: 0 0 40px;
+  padding: 143px 0 50px;
+  background: url(../images/bg1.png) 0 0 repeat;
+  text-align: center;
+}
+
+#eup-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#eup-menu li {
+  display: inline-block;
+}
+
+#eup-menu a {
+  color: #FFF;
+}
+
+#eup-main h2 {
+  text-align: center;
+}
+
+#eup-main .features {
+  min-height: 100px;
+}
+
+#eup-main .features img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#eup-main .features strong {
+  font-size: 100%;
+}
+
+#eup-main .features p {
+  font-size: 100%;
+}
+
+#eup-main .word-cloud {
+  margin: 40px auto;
+  width: 90%;
+}
+
+#eup-main .cafe-item {
+  margin-bottom: 10px;
+  height: 400px;
+  background: #DDD;
+}

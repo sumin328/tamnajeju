@@ -1,0 +1,33 @@
+{
+    "jeju": {
+        "title": "제주시",
+        "features": [
+            {
+                "image": "./images/View-04.png",
+                "title": "프랜차이즈가 가장 많은 곳",
+                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
+            },
+            {
+                "image": "./images/View-04.png",
+                "title": "프랜차이즈가 가장 많은 곳",
+                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
+            },
+            {
+                "image": "./images/View-04.png",
+                "title": "프랜차이즈가 가장 많은 곳",
+                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
+            },
+            {
+                "image": "./images/View-04.png",
+                "title": "프랜차이즈가 가장 많은 곳",
+                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
+            }
+        ],
+        "wordCloud": "./images/word-cloud-gujwa.png"
+    },
+    "segwipo": {
+        "title": "서귀포시",
+        "features": [
+        ]
+    }
+}
