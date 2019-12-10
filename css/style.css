@@ -177,7 +177,8 @@ h1, h2, h3, h4, h5, h6 {
             font-size: 30px;
             padding: 10px 0; } }
         #colorlib-main-nav ul li a:hover {
-          background: rgba(0, 0, 0, 0.4); }
+          background: rgba(208, 224, 0); }
+          /* # 여기가 배경 */
         #colorlib-main-nav ul li a:hover, #colorlib-main-nav ul li a:active, #colorlib-main-nav ul li a:focus {
           color: rgba(255, 255, 255, 0.8);
           outline: none;
