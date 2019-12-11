@@ -331,6 +331,8 @@ header {
   padding: 90px;
   /* 7em 0 */
   clear: both; }
+  
+
 
 @media screen and (min-width: 768px) {
   #colorlib-hire {
@@ -1299,6 +1301,133 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
+
+#jeju-map span2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/fr2.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+
+#jeju-map span3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/americano.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+
+#jeju-map span4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/ame2.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/bread.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/bread2.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/jeju.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/ratio.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/km.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span10 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/east.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/review.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+#jeju-map span12 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/cafereview.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
 
 #eup-menu {
   margin: 0 0 40px;
