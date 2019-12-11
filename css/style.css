@@ -15,7 +15,7 @@ body {
   font-family: "Inconsolata", monospace;
   line-height: 1.8;
   font-size: 20px;
-  background: #f0f0f0;
+  background: #fff;
   font-weight: 300;
   letter-spacing: 1px;
   color: #333333; }
@@ -203,7 +203,7 @@ header {
       font-size: 35px;
       text-transform: uppercase;
       color: #fff;
-      font-weight: 200;
+      font-weight: 700;
       letter-spacing: 5px; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
         text-decoration: none !important; }
@@ -232,8 +232,7 @@ header {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        min-height: 500px; 
-        /* #전체일까?  */
+        min-height: 300px; 
         position: relative; }
         #colorlib-hero .flexslider .slides li .overlay {
           position: absolute;
@@ -291,7 +290,7 @@ header {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
               font-size: 20px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
-          font-size: 18px;
+          font-size: 25px;
           line-height: 1.5;
           margin-top: 30px;
           margin-bottom: 20px;
@@ -329,7 +328,8 @@ header {
 #colorlib-hire,
 #colorlib-contact,
 #colorlib-about {
-  padding: 7em 0;
+  padding: 90px;
+  /* 7em 0 */
   clear: both; }
 
 @media screen and (min-width: 768px) {
@@ -342,9 +342,10 @@ header {
 .intro-heading {
   margin-bottom: 3em; }
   .intro-heading h2 {
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 600;
     line-height: 1.5;
+    width: 800px;
     margin-bottom: 1.5em;
     color: #ff662a;
     position: relative;
@@ -354,14 +355,14 @@ header {
       bottom: -.5em;
       left: 0;
       right: 0;
-      width: 80px;
-      height: 2px;
+      width: 200px;
+      height: 5px;
       content: '';
       background: #d0e000;
       margin: 0 auto; }
     @media screen and (max-width: 3000px) {
       .intro-heading h2 {
-        font-size: 30px; } }
+        font-size: 40px; } }
 
 .heading {
   font-size: 60px;
@@ -377,6 +378,14 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative; }
+
+.work-img2 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+
+
 
 .services {
   margin-bottom: 3em; }
@@ -403,10 +412,44 @@ header {
       font-size: 28px; }
 
 .work-img {
-  width: 100%;
-  height: 100%;
+    display: table;
+    margin-bottom: 30px; 
+    /* vertical-align: length; */
+    border: 0;
+    float: left;
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 200px;
+    }
+    @media screen and (max-width: 3000px) {
+      .work-img {
+        height: 200px; } }
+  .col-md-6 {
+    width: 100% !important;
+    /* float: center !important ;  */
+    }
+
+
+.work-img2 {
   display: table;
-  margin-bottom: 30px; }
+  background-size: contain;
+  margin-bottom: 10px; 
+  border: 0;
+  float: left;
+  margin-left: 100px;
+  margin-right: 10px;
+  width: 500px;
+  height: auto;
+  }
+  @media screen and (max-width: 3000px) {
+    .work-img2 {
+      height: 500px; } }
+.col-md-6 {
+  width: 100% !important;
+  /* float: center !important ;  */
+      }
+
+
   .work-img .overlay {
     position: absolute;
     top: 1em;
@@ -422,9 +465,7 @@ header {
     @media screen and (max-width: 3000px) {
       .work-img .overlay {
         opacity: 1; } }
-  @media screen and (max-width: 3000px) {
-    .work-img {
-      height: 500px; } }
+
   .work-img .desc {
     display: table-cell;
     vertical-align: middle;
@@ -440,12 +481,12 @@ header {
     .work-img .desc .tag {
       display: block;
       color: rgba(0, 0, 0, 0.5);
-      margin-bottom: 15px; }
+      margin-bottom: 30px; }
       @media screen and (max-width: 3000px) {
         .work-img .desc .tag {
           margin-bottom: 0; } }
     .work-img .desc span {
-      font-size: 13px;
+      font-size: 30px;
       color: rgba(0, 0, 0, 0.5); }
     .work-img .desc h3 {
       color: #000;
@@ -1228,6 +1269,7 @@ aside p {
 #jeju-map a {
   position: relative;
   display: block;
+  right: 100px;
   width: 100%;
   height: 0;
   padding-bottom: calc(100% * 350 / 620);
@@ -1240,6 +1282,19 @@ aside p {
   width: 100%;
   height: 100%;
   background: #FFF url(../images/jeju_mappng-03.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+
+#jeju-map span1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/fr.png) 50% 50% no-repeat;
   background-size: contain;
   text-indent: -10000px;
   overflow: hidden;
@@ -1260,10 +1315,33 @@ aside p {
 
 #eup-menu li {
   display: inline-block;
+  text-align: center;
+  font-weight: 200;
+  font-size: 30px !important;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Inconsolata", monospace ;
+  margin: 0 0 30px 0;
 }
 
 #eup-menu a {
   color: #FFF;
+}
+
+#eup-menu h1 {
+  font-weight: 600;
+  font-size: 50px !important;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  color: #d0e000;
+  position: relative;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Futura";
+  margin: 0 0 30px 0;
 }
 
 #eup-main h2 {
@@ -1271,7 +1349,7 @@ aside p {
 }
 
 #eup-main .features {
-  min-height: 100px;
+  min-height: 0px;
 }
 
 #eup-main .features img {
@@ -1296,6 +1374,150 @@ aside p {
 
 #eup-main .cafe-item {
   margin-bottom: 10px;
-  height: 400px;
-  background: #DDD;
+  height: 200px;
+  background: #fff;
 }
+
+#eup-main .cafes {
+  min-height: 200px;
+}
+
+#eup-main .cafes img {
+  float: left;
+  margin-right: 10px;
+  size: 80%;
+  width: 200px;
+  height: 200px;
+}
+
+#eup-main .cafes strong {
+  font-size: 100%;
+}
+
+#eup-main .cafes p {
+  font-size: 15px;
+}
+
+#colorlib-counter .btn-learn2 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 8px 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;   
+  background: #d0e000;
+  background-position: center;
+  width: 90px;
+}
+
+/* toolnteam */
+#toolnteam {
+  margin: 0 0 40px;
+  padding: 143px 0 50px;
+  background: url(../images/bg1.png) 0 0 repeat;
+  text-align: center;
+  height: 300px;
+  background-color: #fff;
+}
+#colorlib-counter2 {
+  background: #fff;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#colorlib-counter2 .intro-heading p{
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  font-size: 18px;
+  max-width: 100%;
+
+}
+
+#colorlib-counter3 {
+  background: #fff;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#colorlib-counter3 .intro-heading p{
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  text-align: left;
+  font-size: 18px;
+  max-width: 100%;
+}
+
+#colorlib-counter4 {
+  background: #fff;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+#colorlib-counter4 .intro-heading p{
+  margin-bottom: 1.5em;
+  font-weight: 400;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  font-size: 18px;
+  max-width: 100%;
+
+}
+
+#colorlib-counter4 .intro-heading a {
+  padding: 1.3rem;
+  background-image: url(../images/github-11.png) 50% 50% no-repeat;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 0px;
+
+}
+
+.github {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; 
+    padding: 50px;
+}
+
+.wordcloud { 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; 
+}
+.wordcloud {
+  width: 100%;
+  display: table;
+  margin-bottom: 30px; 
+  border: 0;
+  float: left;
+  margin-left: 100px;
+  margin-right: 10px;
+  height: 100%;
+}
+  @media screen and (max-width: 3000px) {
+    .wordcloud {
+      height: 200px; } }
+.col-md-6 {
+  width: 100% !important;
+  /* float: center !important ;  */
+  }

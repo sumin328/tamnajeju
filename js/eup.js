@@ -6,7 +6,7 @@
     const name = params.get('name') || 'jeju';
 
     const region = regions[name];
-    const cafes = allCafes.filter(i => i['town'] === region['title']);
+    const cafes = allCafes.filter(i => i['town'] === region['title']).slice(0,50);
 
     document.getElementById('eup-main').innerHTML = `
     <div class="container">
@@ -30,8 +30,9 @@
                 ${cafes.map(cafe => `
                     <div class="col-sm-6">
                         <div class="cafe-item">
-                            ${cafe['cafe']}
-                            <img src="${cafe['image_url'] || './images/view-04.png'}" alt="사진">
+                            <img src="${cafe['image_url'] || './images/coffee.png'}" alt="사진">
+                            <strong> ${cafe['cafe']} </strong>
+                            <p> ${cafe['final_address']} </p>
                         </div>
                     </div>
                 `).join('')}

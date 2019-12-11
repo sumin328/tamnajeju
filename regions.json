@@ -1,27 +1,7 @@
 {
     "jeju": {
         "title": "제주시",
-        "features": [
-            {
-                "image": "./images/view-04.png",
-                "title": "프랜차이즈가 가장 많은 곳",
-                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
-            },
-            {
-                "image": "./images/view-04.png",
-                "title": "프랜차이즈가 가장 많은 곳",
-                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
-            },
-            {
-                "image": "./images/view-04.png",
-                "title": "프랜차이즈가 가장 많은 곳",
-                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
-            },
-            {
-                "image": "./images/view-04.png",
-                "title": "프랜차이즈가 가장 많은 곳",
-                "description": "We have extensive experience and can be proud of 10 000+ completed projects."
-            }
+        "features": [ 
         ],
         "wordCloud": "./images/word-cloud-gujwa.png"
     },
@@ -29,5 +9,56 @@
         "title": "서귀포시",
         "features": [
         ]
+    },
+    "jochun": {
+        "title": "조천읍",
+        "features": [
+        ]
+    },
+    "gu": {
+        "title": "구좌읍",
+        "features": [
+        ]
+    },
+    "sungsan": {
+        "title": "성산읍",
+        "features": [
+        ]
+    },
+    "sun": {
+        "title": "표선면",
+        "features": [
+        ]
+    },
+    "nam": {
+        "title": "남원읍",
+        "features": [
+        ]
+    },
+    "duck": {
+        "title": "안덕면",
+        "features": [
+        ]
+    },
+    "dae": {
+        "title": "대정읍",
+        "features": [
+        ]
+    },
+    "hank": {
+        "title": "한경읍",
+        "features": [
+        ]
+    },
+    "hanl": {
+        "title": "한림읍",
+        "features": [
+        ]
+    },
+    "wol": {
+        "title": "애월읍",
+        "features": [
+        ]
     }
+
 }
