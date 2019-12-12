@@ -34,7 +34,7 @@
                             <strong> ${cafe['cafe']} </strong>
                             <p> ${cafe['final_address']} </p>
                             <p> ${cafe['keywords']} </p>
-                            <span> ${cafe['Tourism']} </span>
+                            <span> ${cafe['Tourism ']} </span>
                         </div>
                     </div>
                 `).join('')}
