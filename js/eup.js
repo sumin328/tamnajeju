@@ -7,6 +7,7 @@
 
     const region = regions[name];
     const cafes = allCafes.filter(i => i['town'] === region['title']).slice(0,50);
+    // const cafes = allCafes.filter(i => i['comments'] === region['comments']).slice(0,50);
 
     document.getElementById('eup-main').innerHTML = `
     <div class="container">
@@ -34,7 +35,7 @@
                             <strong> ${cafe['cafe']} </strong>
                             <p> ${cafe['final_address']} </p>
                             <p> ${cafe['keywords']} </p>
-                            <p2> ${cafe['Tourism']} </p2>
+                            <span> ${cafe['Tourism']} </span>
                         </div>
                     </div>
                 `).join('')}
