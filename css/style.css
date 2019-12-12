@@ -1411,6 +1411,33 @@ aside p {
   text-transform: uppercase;
 
 }
+.jeju-map text{
+  height: 60px;
+  display: block; 
+  text-align: center;
+  font-size : 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 600px;
+  margin-bottom: 100px;
+  color: #ff662a;
+  position: relative;
+  text-transform: uppercase;
+}
+.jeju-map text2{
+  height: 60px;
+  display: block; 
+  text-align: center;
+  font-size : 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  color: #ff662a;
+  position: relative;
+  text-transform: uppercase;
+
+}
 
 .jeju-map span {
   position: absolute;
