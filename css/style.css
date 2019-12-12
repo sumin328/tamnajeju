@@ -1263,12 +1263,12 @@ aside p {
   text-align: left;
 }
 
-#jeju-map {
+.jeju-map {
   margin: 0 auto;
   max-width: 1000px;
 }
 
-#jeju-map a {
+.jeju-map a {
   position: relative;
   display: block;
   right: 100px;
@@ -1277,7 +1277,7 @@ aside p {
   padding-bottom: calc(100% * 350 / 620);
 }
 
-#jeju-map span {
+.jeju-map span {
   position: absolute;
   top: 0;
   left: 0;
@@ -1290,7 +1290,7 @@ aside p {
 }
 
 
-#jeju-map span1 {
+.jeju-map span1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1302,7 +1302,7 @@ aside p {
   overflow: hidden;
 }
 
-#jeju-map span2 {
+.jeju-map span2 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1315,7 +1315,7 @@ aside p {
 }
 
 
-#jeju-map span3 {
+.jeju-map span3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1328,7 +1328,7 @@ aside p {
 }
 
 
-#jeju-map span4 {
+.jeju-map span4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1339,7 +1339,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span5 {
+.jeju-map span5 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1350,7 +1350,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span6 {
+.jeju-map span6 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1361,7 +1361,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span7 {
+.jeju-map span7 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1372,7 +1372,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span8 {
+.jeju-map span8 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1383,7 +1383,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span9 {
+.jeju-map span9 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1394,7 +1394,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span10 {
+.jeju-map span10 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1405,7 +1405,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span11 {
+.jeju-map span11 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1416,7 +1416,7 @@ aside p {
   text-indent: -10000px;
   overflow: hidden;
 }
-#jeju-map span12 {
+.jeju-map span12 {
   position: absolute;
   top: 0;
   left: 0;
@@ -1528,7 +1528,13 @@ aside p {
 }
 
 #colorlib-counter .btn-learn2 {
-  display: inline-block;
+  position:absolute;
+  top:150%;
+  left:50%;
+  width:100px;
+  height:40px;
+  margin:-50px 0 0 -50px;
+  display: inline-block ;
   text-align: center;
   vertical-align: middle;
   touch-action: manipulation;
@@ -1650,3 +1656,34 @@ aside p {
   width: 100% !important;
   /* float: center !important ;  */
   }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #d0e000;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  text-align: left !important;
+  padding: 30px 0;
+  color: #333;
+  margin-top:300px ;
+  font-size: 14px;
+}
+
+#footer .credits {
+  font-size: 13px;
+  color: #888;
+}
+
+#footer .footer-links a {
+  color: #666;
+  padding-left: 15px;
+}
+
+#footer .footer-links a:first-child {
+  padding-left: 0;
+}
+
+#footer .footer-links a:hover {
+  color: #ff662a;
+}
