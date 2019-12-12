@@ -1,74 +1,62 @@
 {
     "jeju": {
         "title": "제주시",
-        "comments":"50000",
         "features": [ 
         ],
         "wordCloud": "./images/word-cloud-gujwa.png"
     },
     "segwipo": {
         "title": "서귀포시",
-        "comments":"50000",
         "features": [
         ]
     },
     "jochun": {
         "title": "조천읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "gu": {
         "title": "구좌읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "sungsan": {
         "title": "성산읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "sun": {
         "title": "표선면",
-        "comments":"50000",
         "features": [
         ]
     },
     "nam": {
         "title": "남원읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "duck": {
         "title": "안덕면",
-        "comments":"50000",
         "features": [
         ]
     },
     "dae": {
         "title": "대정읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "hank": {
         "title": "한경읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "hanl": {
         "title": "한림읍",
-        "comments":"50000",
         "features": [
         ]
     },
     "wol": {
         "title": "애월읍",
-        "comments":"50000",
         "features": [
         ]
     }
