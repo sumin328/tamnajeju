@@ -1,0 +1,53 @@
+{
+    "ak": {
+        "title": "아쿠아플래닛",
+        "features": [ 
+        ],
+        "wordCloud": ""
+    },
+    "vi": {
+        "title": "비자림",
+        "features": [
+        ]
+    },
+    "camel": {
+        "title": "카멜리아힐",
+        "features": [
+        ]
+    },
+    "ham": {
+        "title": "함덕해수욕장",
+        "features": [
+        ]
+    },
+    "so": {
+        "title": "쇠소깍",
+        "features": [
+        ]
+    },
+    "hub": {
+        "title": "협재해수욕장",
+        "features": [
+        ]
+    },
+    "sa": {
+        "title": "사려니숲길",
+        "features": [
+        ]
+    },
+    "sae": {
+        "title": "새별오름",
+        "features": [
+        ]
+    },
+    "sub": {
+        "title": "섭지코지",
+        "features": [
+        ]
+    },
+    "sun": {
+        "title": "성산일출봉",
+        "features": [
+        ]
+    }
+}

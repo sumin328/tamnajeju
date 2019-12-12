@@ -398,6 +398,13 @@ header {
   background-repeat: no-repeat;
   position: relative; }
 
+.work-img4 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative; }
+  
+
 
 .services {
   margin-bottom: 3em; }
@@ -570,7 +577,25 @@ header {
           .work-img3:hover .desc {
             opacity: 1; }
 
-
+.work-img4 {
+  display: table;
+  background-size: contain;
+  border: 0;
+  background-position: center;
+  float: left;
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 50px;
+  width: 1000px;
+  }
+  @media screen and (max-width: 3000px) {
+    .work-img4 {
+      height: 400px; } }
+.col-md-6 {
+  width: 100% !important;
+  /* float: center !important ;  */
+      }
+            
 
 
   .work-img .overlay {
@@ -1590,6 +1615,31 @@ aside p {
   overflow: hidden;
 }
 
+.jeju-map span13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/eup.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
+
+.jeju-map span14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF url(../images/eupfr.png) 50% 50% no-repeat;
+  background-size: contain;
+  text-indent: -10000px;
+  overflow: hidden;
+}
+
 
 #eup-menu {
   margin: 0 0 40px;
@@ -1761,7 +1811,7 @@ aside p {
   margin-bottom: 1.5em;
   font-weight: 400;
   font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
-  text-align: left;
+  text-align: center;
   font-size: 18px;
   max-width: 100%;
 }
@@ -1856,4 +1906,49 @@ aside p {
 
 #footer .footer-links a:hover {
   color: #ff662a;
+}
+
+/* member */
+#team2 {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: #fff;
+}
+
+#team2 .member {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin-bottom: 20px; */
+}
+
+#team2 .m_name_box {
+  margin: 0 auto;
+  width: 75%;
+}
+
+#team2 .m_name {
+  float: left;
+  width: 16.66%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+}
+
+#team2 .member h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+#team2 .m_name h4 {
+  padding-bottom: 10px;
+}
+
+#team2 .m_name p {
+  font-size: 13px;
+  line-height: 22px;
 }

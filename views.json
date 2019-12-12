@@ -1,0 +1,34 @@
+{
+    "viewmat": {
+        "title": "뷰맛집",
+        "features": [ 
+        ],
+        "wordCloud": ""
+    },
+    "coffee": {
+        "title": "커피미식가",
+        "features": [
+        ]
+    },
+    "cafe": {
+        "title": "이색카페",
+        "features": [
+        ]
+    },
+    "mood": {
+        "title": "분위기",
+        "features": [
+        ]
+    },
+    "con": {
+        "title": "시설",
+        "features": [
+        ]
+    },
+    "pic": {
+        "title": "현지인픽",
+        "features": [
+        ]
+    }
+
+}
