@@ -563,12 +563,12 @@ header {
       opacity: 1; } }
     .work-img3 .desc h3 {
       color: #ff662a;
-      font-size: 50px;
+      font-size: 30px;
       margin-top: 150px;
-      margin-left: 50px}
+      margin-left: 60px}
       @media screen and (max-width: 3000px) {
         .work-img3 .desc h3 {
-          font-size: 50px;
+          font-size: 30px;
           text-align: center; } }
         .work-img3:hover {
           text-decoration: none; }
