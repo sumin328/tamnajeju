@@ -1502,7 +1502,7 @@ aside p {
 }
 
 #eup-main .cafe-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   height: 200px;
   background: #fff;
 }
@@ -1525,6 +1525,13 @@ aside p {
 
 #eup-main .cafes p {
   font-size: 15px;
+}
+
+#eup-main .cafes p2 {
+  font-size: 12px;
+  line-height: 1.1 !important ;
+  letter-spacing: 0.5px;
+  word-spacing:-5px;
 }
 
 #colorlib-counter .btn-learn2 {

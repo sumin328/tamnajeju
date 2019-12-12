@@ -33,6 +33,8 @@
                             <img src="${cafe['image_url'] || './images/coffee.png'}" alt="사진">
                             <strong> ${cafe['cafe']} </strong>
                             <p> ${cafe['final_address']} </p>
+                            <p> ${cafe['keywords']} </p>
+                            <p2> ${cafe['Tourism']} </p2>
                         </div>
                     </div>
                 `).join('')}
