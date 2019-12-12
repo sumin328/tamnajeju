@@ -1,14 +1,13 @@
 @font-face {
-  font-family: 'icomoon', 'Futura';
-  src: url("./fonts/icomoon/icomoon.eot");
-  src: url("./fonts/icomoon/icomoon.eot") format("embedded-opentype"), url("./fonts/icomoon/icomoon.ttf") format("truetype"), url("./fonts/icomoon/icomoon.woff") format("woff"), url("./fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-family: 'icomoon', 'Futura','Nanum Gothic Coding','Roboto' ;
+  src: url("./fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("./fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("./fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("./fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("./fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+  src: url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal; 
+}
 
-
-@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);
-body, table, div, p{ font-family: ‘Roboto’, ‘Spoqa Han Sans’, ‘Spoqa Han Sans JP’, ‘Sans-serif’; }
 /*font-weight는 100(thin), 400(normal), 700(bold)만 사용하세요.*/
 
 /* =======================================================
