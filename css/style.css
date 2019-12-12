@@ -1,8 +1,8 @@
 @font-face {
-  font-family: 'icomoon', 'Futura','Nanum Gothic Coding','Roboto' ;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   src: url("./fonts/icomoon/icomoon.eot?srf3rx");
   src: url("./fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("./fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("./fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("./fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
-  src: url(https://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+  src: url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
   src: url(https://fonts.googleapis.com/css?family=Roboto:400,100,700);
   font-weight: normal;
   font-style: normal; 
@@ -17,7 +17,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   line-height: 1.8;
   font-size: 20px;
   background: #fff;
@@ -53,7 +53,7 @@ a {
 p, span {
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace; }
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ; }
 
 span {
   font-size: 18px;
@@ -61,7 +61,7 @@ span {
 
 h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 0.8);
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   font-weight: 400;
   margin: 0 0 30px 0; }
 
@@ -1235,7 +1235,7 @@ header {
     font-size: 60px;
     display: block;
     color: black;
-    font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;;
+    font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
     width: 100%;
     font-weight: 400;
     margin-bottom: .3em; }
@@ -1245,7 +1245,7 @@ header {
     display: block;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;;
+    font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
     font-weight: 400;
     color: gray; }
 
@@ -1587,7 +1587,7 @@ aside p {
   position: relative;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   margin: 0 0 30px 0;
 }
 
@@ -1714,7 +1714,7 @@ aside p {
 #colorlib-counter2 .intro-heading p{
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   text-align: center;
   font-size: 18px;
   max-width: 100%;
@@ -1733,7 +1733,7 @@ aside p {
 #colorlib-counter3 .intro-heading p{
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   text-align: left;
   font-size: 18px;
   max-width: 100%;
@@ -1751,7 +1751,7 @@ aside p {
 #colorlib-counter4 .intro-heading p{
   margin-bottom: 1.5em;
   font-weight: 400;
-  font-family: "Inconsolata",'Futura','Nanum Gothic Coding','Roboto', monospace;
+  font-family: 'icomoon', 'Futura','Noto Sans KR', sans-serif,'Roboto' ;
   text-align: center;
   font-size: 18px;
   max-width: 100%;
