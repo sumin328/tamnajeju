@@ -5,8 +5,8 @@
     const params = new Map([...new URLSearchParams(location.search)]);
     const name = params.get('name') || 'viewmat';
 
-    const view = regions[name];
-    const cafes = allCafes.filter(i => i['key1'] === view['title']).slice(0,50);
+    const view = views[name];
+    const cafes = allCafes.filter(i => i['key'] === view['title']).slice(0,50);
   
     document.getElementById('eup-main').innerHTML = `
     <div class="container">
