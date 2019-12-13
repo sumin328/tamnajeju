@@ -3,7 +3,7 @@
     const allCafes = await (await fetch('./cafes.json')).json();
 
     const params = new Map([...new URLSearchParams(location.search)]);
-    const name = params.get('name') || 'ak';
+    const name = params.get('name') || 'hub';
 
     const tour = tours[name];
     const cafes = allCafes.filter(i => i['tour'] === tour['title']);

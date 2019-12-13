@@ -1,9 +1,9 @@
 {
-    "ak": {
-        "title": "우도해양도립공원",
-        "features": [ 
-        ],
-        "wordCloud": ""
+    "hub": {
+        "title": "월정리해변",
+        "features": [
+        ]
+    
     },
     "vi": {
         "title": "제주동백수목원",
@@ -25,11 +25,13 @@
         "features": [
         ]
     },
-    "hub": {
-        "title": "월정리해변",
-        "features": [
-        ]
-    },
+    "ak": {
+        "title": "우도해양도립공원",
+        "features": [ 
+        ],
+        "wordCloud": ""
+    },    
+
     "sa": {
         "title": "용두암",
         "features": [
